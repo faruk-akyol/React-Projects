@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+
+body{
+    color: white;
+    font-family: "Inter";
+    background: #23252C;
+    box-sizing: border-box;
+}
+
+.main_frame{
+    background: #1A1B21;
+    margin: 0 auto;
+    width: 317px;
+}
+
+
+.profile_image{
+    margin: 0 auto;
+}
+
+
+.profile_info_div{
+    margin: 0px 20px;
+}
+
+.profile_info_div>*{
+    text-align: center;
+}
+
+.profile_name{
+    letter-spacing: 2px;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.profile_occapution{
+    margin-top: 2px;
+    color: #F3BF99;
+    font-size: 13px;
+}
+.profile_website{
+    font-size: 10px;
+    color: #F5F5F5;
+}
+
+.profile_links >a>p{
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.profile_links >a>img{
+    width: 16px;
+    height: 16px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.linkedin_profile_link{
+    border-radius: 10px;
+    padding: 9px 15px;
+    background: #5093E2;
+    color: white;
+
+}
+
+.mail_profile_link{
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 9px 30px;
+    background: white;
+    color: #374151 ;
+}
+
+.main_content{
+    margin: 10px 30px 40px 30px;
+
+}
+.main_content>div>h4{
+    font-size: 16px;
+    font-weight:800;
+    color: #DCDCDC;
+    margin-bottom: 10px;
+}
+
+.main_content>div>p{
+    margin-top: 0px;
+    font-size: 10px;
+    font-weight: 100;
+    color: #DCDCDC;
+}
+
+.footer_link{
+    margin-right: 20px;
+}
+
+
+
+.last_footer_link{
+    margin-right: 0px;
+}
+
+.footer>a>img{
+    width:25px ;
+    height: 25px;
+}
+
+.footer{
+    text-align: center;
+    background: #161619;
+    padding: 20px;
+}
